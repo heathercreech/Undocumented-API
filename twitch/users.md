@@ -21,7 +21,7 @@ A `users/:user/follows/channels` request returns the number of channels a user f
 - Sorting by `created_at` doesn't work
 - There is a `live` status that shows if a channel is currently broadcasting
 - A `stream` object that is assigned to if the channel is live
-- 
+
 
 ##### `stream` Object
 The `stream` object contains information about a live broadcast.
