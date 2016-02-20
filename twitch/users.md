@@ -17,3 +17,12 @@ A `users/:user/follows/channels` request returns the number of channels a user f
 
 #### Games
 
+### Parameters
+*Note: any description following by '(?)' means that the parameters function is being guessed and has not been confirmed*
+
+| Option | Default Value | Description |
+|--------|---------------|-------------|
+| direction | DESC | Determines which order (alphabetically) that channels appear |
+| limit | 25 | Limits the number of results returned |
+| offset | 0 | Object offset for pagination (taken from the official Twitc API)(?) |
+| sortby | login | Key that the data is sorted by. Valid values are `created_at`, `last_broadcast`, and `login` (unsure if there are more than this) |
