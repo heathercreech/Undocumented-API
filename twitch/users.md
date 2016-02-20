@@ -12,13 +12,11 @@
 | games | Returns the list of games that the user is following |
 
 #### Channels
-A `users/:user/follows/channels` request returns the number of channels a user follows, their links, and a great deal of information about the channels themselves.
-
+A `users/:user/follows/channels` request returns the number of channels a user follows, their links, and a great deal of information about the channels themselves. This request is in the official API, however the default value for the sortby parameter is different.
 
 #### Games
 
 ### Parameters
-*Note: any description following by '(?)' means that the parameters function is being guessed and has not been confirmed*
 
 | Option | Default Value | Description |
 |--------|---------------|-------------|
