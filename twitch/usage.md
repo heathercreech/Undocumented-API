@@ -1,0 +1,2 @@
+#Using the Undocumented API
+Most of the undocumented sections of Twitch's API are not under the official API's url ("https://api.twitch.tv/kraken/..."), instead most requests are sent to "http://api.twitch.tv/api/...". The documentation in this section will fall under the assumption that API requests are sent to this url unless otherwise stated.
