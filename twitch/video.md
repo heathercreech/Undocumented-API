@@ -25,8 +25,8 @@ To retrieve a quality manifest, the above call must be made with a few query par
 
 | Parameter | Description |
 |-----------|-------------|
-| sig | The signature from the access token |
-| token | The token variable from the access token |
+| sig | (Required) The signature from the access token |
+| token | (Required) The token variable from the access token |
 | p | 6-digit random integer, no idea what this is used for |
 | allow_spectre | No idea what this is |
 | player | No idea. Valid values: `twitchweb`(possibly more) |
