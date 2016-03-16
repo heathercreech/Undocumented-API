@@ -58,3 +58,4 @@ http://video-edge-80f084.ord02.hls.ttvnw.net/hls-8c7be4/lobosjr_19903039840_4097
 ```
 
 ##Video Manifest
+Getting a video stream is as simple as sending requests to the quality URL supplied by the quality manifest. The URL returns another manifest file similar to the quality manifest, except it links to `.ts` files instead.
