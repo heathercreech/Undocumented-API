@@ -39,7 +39,7 @@ To retrieve a quality manifest, the above call must be made with a few query par
 Below is an example of a quality manifest file.
 ```
 #EXTM3U
-#EXT-X-TWITCH-INFO:NODE="video-edge-80f084.ord02",MANIFEST-NODE="video-edge-80f084.ord02",SERVER-TIME="1456790945.85",USER-IP="147.133.207.237",CLUSTER="ord02",MANIFEST-CLUSTER="ord02"
+#EXT-X-TWITCH-INFO:NODE="video-edge-80f084.ord02",MANIFEST-NODE="video-edge-80f084.ord02",SERVER-TIME="1456790945.85",USER-IP="XXX.XXX.XXX.XXX",CLUSTER="ord02",MANIFEST-CLUSTER="ord02"
 #EXT-X-MEDIA:TYPE=VIDEO,GROUP-ID="high",NAME="High",AUTOSELECT=YES,DEFAULT=YES
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1760000,RESOLUTION=1280x720,CODECS="avc1.66.31,mp4a.40.2",VIDEO="high"
 http://video-edge-80f084.ord02.hls.ttvnw.net/hls-8c7be4/lobosjr_19903039840_409766749/high/py-index-live.m3u8?token=id=2607615118474079899,bid=19903039840,exp=1456877345,node=video-edge-80f084-1.ord02.hls.justin.tv,nname=video-edge-80f084.ord02,fmt=high&sig=301187cdc1f0597bfe5e66ea3a00c3d157f31823
